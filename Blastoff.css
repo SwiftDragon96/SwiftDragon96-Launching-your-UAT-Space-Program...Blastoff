@@ -1,0 +1,18 @@
+/*align everything to be centered with the page*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: grey;
+    text-align: center;
+}
+/*navigation*/
+div#nav {
+    background-color: red;
+    height: 10em;
+}
+/*logo*/
+img#logo {
+    height: 10em;
+    padding: 0;
+}

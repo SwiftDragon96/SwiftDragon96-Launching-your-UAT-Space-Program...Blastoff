@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- 
+	Anthony Kipple
+	University of Advancing Technology
+	CSC102 Introduction to Programming
+	Fall 2022 Online 2
+	Launching your UAT Space Program...Blastoff
+	10 16 2022  
+-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--title for the webpage -->
+	<title>UAT Space Program</title>
+	<!--links my javascript file to this html file-->
+	<script src="Blastoff.js"></script>
+	<!--links my css file to this html file-->
+	<link rel="stylesheet" href="Blastoff.css" type="text/css">
+</head>
+<body>
+	<!--navigation bar containing logo-->
+	<div id="nav">
+		<img id="logo" src="UATMission3Logo.png" alt="UATMission3Logo">
+	</div>
+	<!--header-->
+	<h1>UAT Space Program</h1>
+	<!--document write test-->
+	<script>
+	document.write("Test of the document write function");
+	</script>
+	<!--paragraph tag test-->
+	<p>Test of the paragraph tags</p>
+	<!--adds extra space between paragraph and buttons-->
+	<br>
+	<!--start button calls for countdown function-->
+	<button onclick="countdown()">start</button>
+	<button onclick="stop()">stop</button>
+	<h3>Countdown</h3>
+	<div id="countdownDisplay">0</div>
+</body>
+</html>
